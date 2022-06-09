@@ -1,24 +1,28 @@
 body{
   background-color: powderblue;
   text-align: center;
-
 }
 
-
-
+.top-container{
+  position:relative;
+  width: 1349px;
+  height: 780px;
+}
 
 .order-summary{
   position: absolute;
   top:250px;
   right:520px;
-  font-size: 2rem;
+  font-size: 32px;
+  margin: 0%;
 }
 
 .message{
   font-family: 'Montserrat', sans-serif;
+  width: 50%;
   position: absolute;
-  top:320px;
-  right:508px;
+  top:290px;
+  right:290px;
   font-size: 0.80rem;
 }
 
@@ -26,7 +30,7 @@ body{
   /* font-family: 'Montserrat', sans-serif; */
   position: absolute;
   top:400px;
-  right:640px;
+  right:620px;
   font-size: 0.85rem;
 }
 
@@ -36,11 +40,6 @@ body{
   right:530px;
   font-size: 0.85rem;
 }
-
-.background-image{
-  /* position: relative; */
-}
-
 
 .card-image{
   position: absolute;
@@ -90,7 +89,7 @@ body{
   margin: 0px;
   position: absolute;
   top:407px;
-  right:730px;
+  right:715px;
 }
 
 
@@ -98,7 +97,7 @@ body{
 .btn {
   position: absolute;
   top:497px;
-  right:520px;
+  right:500px;
 
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
@@ -124,7 +123,7 @@ body{
 .btn-1 {
   position: absolute;
   top:560px;
-  right:550px;
+  right:532px;
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
